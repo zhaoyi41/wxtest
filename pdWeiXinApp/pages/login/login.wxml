@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<scroll-view>
+  <view class='titleView'>
+    <text class='titleText'>
+登录
+</text>
+  </view>
+
+  <view>
+    <view>
+      <text>username</text>
+      <input class='input' bindinput='usernameInput'></input>
+    </view>
+    <view>
+      <text>password</text>
+      <input class='input' bindinput='passwordInput'> </input>
+    </view>
+    <button bindtap='login'>登录</button>
+    <button bindtap='register'>注册</button>
+
+  </view>
+
+</scroll-view>

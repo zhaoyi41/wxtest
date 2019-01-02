@@ -1,0 +1,7 @@
+{
+  "pages": [
+    "pages/storeindex/storeindex",
+    "pages/index/index"
+  ],
+  "window": {}
+}

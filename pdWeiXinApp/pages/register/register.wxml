@@ -1,0 +1,37 @@
+<!--pages/register/register.wxml-->
+<scroll-view>
+<view class='titleView'>
+<text class='titleText'>注册</text>
+</view>
+<view>
+<view>
+<text>用户名</text>
+<input class='input' bindinput='usernameInput'></input>
+</view>
+
+<view>
+<text>密码</text>
+<input class='input' bindinput='passwordInput'></input>
+</view>
+
+<view>
+<text>确认密码</text>
+<input class='input' bindinput='confirmPasswordInput'></input>
+</view>
+
+<view>
+<text>邮箱</text>
+<input class='input' bindinput='emailInput'></input>
+</view>
+
+
+<view>
+<text>手机号</text>
+<input class='input' bindinput='phoneInput'></input>
+</view>
+
+<button bindtap='register'>注册</button>
+
+<button bindtap='login'>登录</button>
+</view>
+</scroll-view>
